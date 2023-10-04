@@ -2,6 +2,13 @@ import React from 'react'
 import Logo from "../assets/images/logo.png"
 
 const NavBar = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+  
   return (
     <div className=' w-full h-[5.25rem] flex flex-row px-[6.25rem] py-[0.75rem] items-center justify-between border-b '>
         <div className=' flex flex-row items-center'>

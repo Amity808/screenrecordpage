@@ -10,6 +10,7 @@ import RecordBoard from './components/RecordBoard';
 import Footer from './components/Footer';
 import SignUp from './pages/SignUp';
 import ScreenRecord from './pages/ScreenRecord';
+import User from "./pages/User"
 
 
 export default function App() {
@@ -17,8 +18,9 @@ export default function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index  element={<Home />} />
-        <Route index path="/signup" element={<SignUp />} />
+        <Route index path="/login" element={<SignUp />} />
         <Route index path="/screenrecod" element={<ScreenRecord />} />
+        <Route index path="/user" element={<User />} />
       </Route>
     )
   );
