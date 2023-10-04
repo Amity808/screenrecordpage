@@ -10,7 +10,7 @@ import RecordBoard from './components/RecordBoard';
 import Footer from './components/Footer';
 import SignUp from './pages/SignUp';
 import ScreenRecord from './pages/ScreenRecord';
-import User from "./pages/User"
+import User from "./pages/UserPage"
 
 
 export default function App() {
